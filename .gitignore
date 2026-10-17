@@ -1,0 +1,6 @@
+*.o
+*.exe
+*.img
+*.img.db
+.hybridfs_volume
+tests/work/
