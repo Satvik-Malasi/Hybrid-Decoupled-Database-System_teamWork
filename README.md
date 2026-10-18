@@ -93,7 +93,6 @@ Rules the database enforces, for the shell and the SQL console alike:
 - `id`, `mode`, `size` and `block0..block11` cannot be edited from SQL, because the file system owns them. Use `write`.
 - No two entries in a folder share a name, a parent must be a folder, a folder cannot move into itself, and the root cannot be changed or deleted.
 
-More examples, including a table of statements the database refuses, are in [demo/QUERIES.md](demo/QUERIES.md).
 
 ## How it works
 
@@ -155,7 +154,6 @@ The project is split into four parts. Each has an operating-systems half and a d
 
 `common/` holds the shared helpers and the `Volume` type that ties an image and its database together. `ui/` is the browser terminal, `demo/` has sample data and queries, and `tests/` has the test programs.
 
-Who wrote which file, and the commit plan, are in [COMMIT_PLAN.md](COMMIT_PLAN.md).
 
 ## Testing
 
