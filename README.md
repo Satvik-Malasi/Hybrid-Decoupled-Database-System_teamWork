@@ -192,6 +192,6 @@ Opens `http://127.0.0.1:8765/`. Each command is passed to the real `hybridfs.exe
 
 ## Credits
 
-Built by a team of four, as a project on the OS/DBMS split: Manoj, Vignesh, Satvik and Moulik. See [COMMIT_PLAN.md](COMMIT_PLAN.md) for the file ownership.
+Built by a team of four, as a project on the OS/DBMS split: Manoj, Vignesh, Satvik and Moulik.
 
-SQLite is public domain and is included in `sqlite/`. Add a license file before publishing if you want others to reuse the code.
+SQLite is public domain and is included in `sqlite/`. 
