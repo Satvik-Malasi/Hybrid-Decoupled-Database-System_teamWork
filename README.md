@@ -5,9 +5,6 @@
 Written in C with SQLite. Names, folders, owners, sizes, block pointers and tags live in a database next to the disk image,
 and a write-ahead log keeps the two in step, so a crash in the middle of a write never leaves a half-old, half-new file.
 
-It is a teaching project that models the idea behind systems like HDFS (a metadata service kept separate from data
-storage). It is not a production file system.
-
 ![The HybridFS browser terminal showing a session: init, mkdir, write, tag, search and a SQL query](docs/screenshot.png)
 
 ```
